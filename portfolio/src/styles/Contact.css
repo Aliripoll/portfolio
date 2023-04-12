@@ -1,0 +1,16 @@
+.contact_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_img {
+    width: 350px;
+    height: auto;
+}
+.contact_title {
+    font-size: 26px;
+    color: peru;
+    font-family: 'Inconsolata', monospace;
+}
