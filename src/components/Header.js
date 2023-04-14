@@ -8,13 +8,13 @@ function Header() {
         <div className="header_name">Alicia Ripoll.</div>
         <ul className="header_list">
           <li>
-            <Link to='/AboutMe'>About Me</Link>
+            <Link to='/AboutMe' className="link-route">About Me</Link>
           </li>
           <li>
-            <Link to='/Projects'>Projects</Link>
+            <Link to='/Projects' className="link-route">Projects</Link>
           </li>
           <li>
-            <Link to='/Contact'>Contact</Link>
+            <Link to='/Contact' className="link-route">Contact</Link>
           </li>
         </ul>    
         </nav>       

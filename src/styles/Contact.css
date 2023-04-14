@@ -1,4 +1,11 @@
-.contact_div {
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact_firstDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,11 +13,40 @@
 }
 
 .contact_img {
+    margin-top: 50px;
     width: 350px;
     height: auto;
 }
 .contact_title {
-    font-size: 26px;
-    color: peru;
+  
+    font-size: 27px;
+    color: rgb(72, 94, 72);
     font-family: 'Inconsolata', monospace;
+}
+
+.contact_links {
+    margin: 20px 0 0 25px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    gap: 15px;
+    
+    
+}
+.link {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.fa-brands,
+.fa-solid {
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color:tomato;
 }

@@ -1,4 +1,37 @@
-.AboutMe {
-    font-size: 22px;
+.aboutMe_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutMe_info {
     text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin: 0px 80px 0 170px;
+}
+
+.aboutMe_title {
+    font-size: 27px;
+    color: rgb(72, 94, 72);
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 30px;
+}  
+
+.portrait_img {
+    margin: 55px 170px 0 0;
+    width: 86rem;
+    height: 30rem;
+}
+
+.aboutMe_text {
+    margin-bottom: 30px;
+}
+.aboutMe_cv {
+    text-decoration: underline;
+    color: darkolivegreen;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+.aboutMe_cv:hover {
+    color: tomato;
 }

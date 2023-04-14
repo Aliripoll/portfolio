@@ -1,8 +1,16 @@
 import React from "react";
+import "../styles/Projects.css";
 
 function Projects() {
     return (
-        <h2>Mis proyectos</h2>
+        <>
+        <p className="projects_title">Mis proyectos</p>
+        <article>
+            <ul>
+            <li></li>
+            </ul>
+        </article>
+        </>
     );
 }
 
