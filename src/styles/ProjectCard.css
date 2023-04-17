@@ -1,26 +1,37 @@
 .section {
-    margin: 50px 90px 20px 90px;
+    margin: 50px 190px 40px 190px;
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
+   
 }
 .article_card {
    display: flex;
    flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border: 1px solid olive;
+   border: 1px solid peru;
    border-radius: 3px;
-   height:auto;
+   height: 285px;
    width: 300px;
-    
+   box-shadow: rgba(94, 68, 13, 0.644) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   cursor: pointer;
     
 }
+.article_card:hover {
+    color: tomato;
+    box-shadow: inset 300px 0 0 0 palegoldenrod;
+}
+
 .img_card {
     height:auto;
     width: 300px;
+    border-bottom: 1px solid rgba(205, 134, 63, 0.706);
 }
 .info_card {
     text-align: center;
     font-family: 'Inconsolata', monospace;
 
+}
+.card_link {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
 }

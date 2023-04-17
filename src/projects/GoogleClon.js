@@ -4,7 +4,8 @@ import google from "../images/google-clon.png";
 
 function GoogleClon() {
     return (
-        <article className="article_card">
+       <a href="https://aliripoll.github.io/Google-homepage-clon/" target="_blank" className="card_link"> 
+         <article className="article_card">
             <img className="img_card" 
             src={google}
             alt="to-do list App"/>
@@ -13,7 +14,8 @@ function GoogleClon() {
                 <p>HTML - CSS</p>
                 <p>Personal project</p>
             </div>
-        </article>
+         </article>
+        </a>
     );
 }
 
