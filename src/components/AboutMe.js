@@ -1,11 +1,16 @@
 import React from "react";
 import "../styles/AboutMe.css";
 import alicia from "../images/alicia.jpg";
+import cv from "../documents/cv.pdf";
 
 function AboutMe() {
     return (
      <>
      <section className="aboutMe_section">
+     <img 
+          className="portrait_img"
+          src={alicia}
+          alt="mi foto" />
       <div className="aboutMe_info">
         <p className="aboutMe_title">Hola, soy Alicia,</p>
            
@@ -17,12 +22,9 @@ function AboutMe() {
                 Soy consciente de todo lo que me queda por aprender en este sector pero tengo muchas ganas de afrontar esta nueva etapa y lograr mi objetivo: trabajar como desarrolladora Front-end.</p>
 
                 
-                <a href="#" className="aboutMe_cv">Descarga mi curriculum</a>
+                <a href={cv} className="aboutMe_cv">Descarga mi curriculum</a>
         </div>
-             <img 
-                className="portrait_img"
-                src={alicia}
-                alt="mi foto" />
+            
     </section>
      </>
     );

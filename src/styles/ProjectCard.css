@@ -1,5 +1,5 @@
 .section {
-    margin: 50px 190px 40px 190px;
+    margin: 30px 30px 30px 30px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -8,8 +8,8 @@
 .article_card {
    display: flex;
    flex-direction: column;
-   border: 1px solid peru;
-   border-radius: 3px;
+   border: 1px solid rgb(72, 94, 72);
+   border-radius: 2px;
    height: 285px;
    width: 300px;
    box-shadow: rgba(94, 68, 13, 0.644) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -18,7 +18,7 @@
 }
 .article_card:hover {
     color: tomato;
-    box-shadow: inset 300px 0 0 0 palegoldenrod;
+    box-shadow: inset 300px 0 0 0 rgba(184, 184, 1, 0.411);
 }
 
 .img_card {
@@ -34,4 +34,24 @@
 .card_link {
   text-decoration: none;
   color: rgb(20, 20, 20);
+}
+
+@media (min-width: 768px) {
+    .section {
+        margin: 50px 80px 40px 80px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+       
+    }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        margin: 50px 190px 40px 190px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+       
+    }
 }

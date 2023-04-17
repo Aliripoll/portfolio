@@ -1,28 +1,25 @@
 .header_nav {
     display: flex;
     justify-content: space-between;
+    border: 3px solid red;
+    height: auto;
+    margin: 30px 30px 30 30;
     
 }
 
 .header_name {
     color: rgb(205, 127, 63);
-    font-size: 46px;
-    margin: 25px 0 0 45px;
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
-    
-
-    
+       
 }
 .header_list {
     display: flex;
-
     text-decoration: none;
     color: black;
-    
-    gap: 32px;
+    gap: 12px;
     list-style: none;
-    margin: 35px 45px 0 0;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Inconsolata', monospace;
     cursor: pointer;
 }
@@ -32,4 +29,21 @@
 }
 .link-route:hover {
     color: tomato;
+}
+
+@media (min-width: 768px) {
+    .header_name {
+        font-size: 46px;  
+        font-family: 'Dancing Script', cursive;     
+    }
+
+    .header_nav {
+        margin: 50px 30px 50px 30px;
+    }
+    .header_list {
+        gap: 32px;
+        list-style: none;
+        font-size: 22px;
+        margin-right: 30px;
+    }
 }

@@ -1,27 +1,32 @@
 .aboutMe_section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0 0 20px;
+    border: 3px solid green;
 
 }
 .aboutMe_info {
     text-align: center;
     font-family: 'Inconsolata', monospace;
-    margin: 0px 80px 0 170px;
+    margin: 0 15px 15px 15px;
 }
 
 .aboutMe_title {
     font-size: 27px;
     color: rgb(72, 94, 72);
     font-family: 'Inconsolata', monospace;
-    margin-bottom: 30px;
+     margin-bottom: 30px; 
 }  
 
 .portrait_img {
-    margin: 55px 170px 0 0;
-    width: 86rem;
-    height: 30rem;
-    border-radius: 30px;
+    margin: 30px 30px 15px 30px;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .aboutMe_text {
@@ -32,7 +37,26 @@
     color: darkolivegreen;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
+    margin-bottom: 15px;
 }
 .aboutMe_cv:hover {
     color: tomato;
+}
+
+@media (min-width: 768px) {
+    .aboutMe_section {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .aboutMe_info {
+        margin: 70px 30px 0 40px;
+    }
+    .portrait_img {
+        margin: 30px 80px 0 0;
+        width: 90rem;
+        height: 26rem;
+
+    }
 }
