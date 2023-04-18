@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/AboutMe.css";
-import alicia from "../images/alicia.jpg";
+import alicia from "../images/alicia3.jpg";
 import cv from "../documents/cv.pdf";
 import hand2 from "../images/hand2.png";
 

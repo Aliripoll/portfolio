@@ -21,16 +21,17 @@
 }  
 
 .portrait_img {
-    margin: 30px 30px 15px 30px;
-    width: 20rem;
-    height: 18rem;
+    margin: 30px 60px 15px 30px;
+    width: 19rem;
+    height: 17rem;
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
 }
 
 .aboutMe_text {
-    margin-bottom: 30px;
+    margin: 0 20px 30px 20px;
+    
 }
 .aboutMe_cv {
     text-decoration: underline;
@@ -48,7 +49,7 @@
 .hand_button {
     width: 35px;
     height: 35px;
-    transform: translateY(-20px);
+    transform: translateY(-0px);
     margin: 0 auto;
     animation-name: jump;
     animation: jump 2s infinite;
@@ -75,9 +76,12 @@
         margin: 50px 30px 0 40px;
     }
     .portrait_img {
-        margin: 30px 80px 0 0;
+        margin: 30px 110px 0 0;
         width: 90rem;
         height: 26rem;
-
+    }
+    .aboutMe_text {
+        margin: 0 35px 30px 35px;
+        
     }
 }
