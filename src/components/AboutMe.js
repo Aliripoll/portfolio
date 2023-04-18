@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/AboutMe.css";
 import alicia from "../images/alicia.jpg";
 import cv from "../documents/cv.pdf";
+import hand2 from "../images/hand2.png";
 
 function AboutMe() {
     return (
@@ -23,6 +24,9 @@ function AboutMe() {
 
                 
                 <a href={cv} className="aboutMe_cv">Descarga mi curriculum</a>
+                <div className="hand_button_container">
+                <img src={hand2} className="hand_button" />
+                </div>
         </div>
             
     </section>

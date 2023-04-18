@@ -1,15 +1,16 @@
 .header_nav {
     display: flex;
     justify-content: space-between;
-    border: 3px solid red;
     height: auto;
-    margin: 30px 30px 30 30;
+    margin: 10px 10px 10px 10px;
+    padding-right: 10px;
+    position: sticky;
     
 }
 
 .header_name {
     color: rgb(205, 127, 63);
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Dancing Script', cursive;
        
 }
@@ -17,9 +18,9 @@
     display: flex;
     text-decoration: none;
     color: black;
-    gap: 12px;
+    gap: 10px;
     list-style: none;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Inconsolata', monospace;
     cursor: pointer;
 }
@@ -33,12 +34,12 @@
 
 @media (min-width: 768px) {
     .header_name {
-        font-size: 46px;  
+        font-size: 48px;  
         font-family: 'Dancing Script', cursive;     
     }
 
     .header_nav {
-        margin: 50px 30px 50px 30px;
+        margin: 30px 30px 50px 40px;
     }
     .header_list {
         gap: 32px;
