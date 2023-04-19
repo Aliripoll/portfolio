@@ -1,6 +1,5 @@
 .header_nav {
     display: flex;
-    justify-content: space-between;
     height: auto;
     margin: 10px 10px 10px 10px;
     padding-right: 10px;
@@ -12,6 +11,7 @@
     color: rgb(179, 106, 46);
     font-size: 35px;
     font-family: 'Dancing Script', cursive; 
+    justify-content: left;
     
     
 }
@@ -24,15 +24,17 @@
     display: flex;
     text-decoration: none;
     color: black;
-    gap: 10px;
+    gap: 8px;
     list-style: none;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Inconsolata', monospace;
     cursor: pointer;
+    justify-content: right;
 }
 .link-route {
     text-decoration: none;
     color: rgb(180, 148, 107);
+    white-space: nowrap;
 }
 .link-route:hover {
     color: tomato;
