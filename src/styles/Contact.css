@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 15px 15px 15px;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .contact_firstDiv {
@@ -51,6 +53,13 @@
 }
 
 @media (min-width: 768px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px 15px 15px 15px;
+}
     .contact_title {
         font-size: 27px;
         color: rgb(72, 94, 72);

@@ -13,9 +13,11 @@ function AboutMe() {
           src={alicia}
           alt="mi foto" />
       <div className="aboutMe_info">
-        <p className="aboutMe_title">Hola, soy Alicia,</p>
+        <p className="aboutMe_title">Hola, soy Alicia.</p>
            
-                <p className="aboutMe_text">después de un tiempo sin encontrar mi lugar en el ámbito laboral, mi interés por la tecnología y mi entusiasmo por aprender cosas nuevas me llevó a cursar el bootcamp de Desarrollo Web en Adalab. <br></br>
+                <p className="aboutMe_text">Después de un tiempo sin encontrar mi lugar en el ámbito laboral, mi interés por la tecnología y mi entusiasmo por aprender cosas nuevas me llevó a cursar el bootcamp de Desarrollo Web en Adalab.
+                 <br></br>
+                 <br></br>
                 A lo largo de mi trayectoria en sectores diversos he tenido la oportunidad de trabajar con diferentes personas, y lo que más destaco de mi, sin duda, es la empatía y amabilidad para trabajar en equipo. Además de ello, me considero una persona organizada, detallista y responsable.
                 <br></br>
                 <br></br>
