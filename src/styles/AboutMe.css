@@ -49,10 +49,10 @@
 .hand_button {
     width: 35px;
     height: 35px;
-    transform: translateY(-0px);
+    transform: translateY(-15px);
     margin: 0 auto;
     animation-name: jump;
-    animation: jump 2s infinite;
+    animation: jump 1.8s infinite;
     
 }
 .hand_button:hover {
