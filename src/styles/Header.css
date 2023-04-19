@@ -38,7 +38,7 @@
     color: tomato;
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
     .header_name {
         font-size: 50px;  
         font-family: 'Dancing Script', cursive;     
