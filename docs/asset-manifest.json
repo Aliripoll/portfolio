@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1bde7813.css",
+    "main.js": "/portfolio/static/js/main.b403ff3e.js",
+    "static/media/adatravellers.png": "/portfolio/static/media/adatravellers.1e08ee38910d07fbc0e9.png",
+    "static/media/breaking-bad.png": "/portfolio/static/media/breaking-bad.fe4be4d043956914a2e8.png",
+    "static/media/alicia3.jpg": "/portfolio/static/media/alicia3.3bba7e1a08b358c4159f.jpg",
+    "static/media/awesome-women.png": "/portfolio/static/media/awesome-women.55b6b8bf6e83280ab2c9.png",
+    "static/media/rick-morty.png": "/portfolio/static/media/rick-morty.a6b9847a9a574d0b4f1c.png",
+    "static/media/todo-list.png": "/portfolio/static/media/todo-list.88f3f174ca557bac440c.png",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.82132ff84013ee2fe44d.pdf",
+    "static/media/teléfono.jpeg": "/portfolio/static/media/teléfono.28a6e173d3873e30ce5c.jpeg",
+    "static/media/google-clon.png": "/portfolio/static/media/google-clon.280b58be61eb0ad06bed.png",
+    "index.html": "/portfolio/index.html",
+    "main.1bde7813.css.map": "/portfolio/static/css/main.1bde7813.css.map",
+    "main.b403ff3e.js.map": "/portfolio/static/js/main.b403ff3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bde7813.css",
+    "static/js/main.b403ff3e.js"
+  ]
+}
