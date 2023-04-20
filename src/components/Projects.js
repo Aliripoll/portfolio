@@ -8,6 +8,7 @@ import { AwesomeWomen } from "../projects/Awesome";
 import { RickAndMorty } from "../projects/RickAndMorty";
 import { Adatravellers } from "../projects/Adatravellers";
 import { WhackAmole } from "../projects/whack";
+import { AnonymousProxy } from "../projects/Anonymous";
 
 function Projects() {
     return (
@@ -21,6 +22,7 @@ function Projects() {
             <AwesomeWomen/>
             <RickAndMorty/>
             <Adatravellers/>
+            <AnonymousProxy/>
         </article>
         </>
     );
