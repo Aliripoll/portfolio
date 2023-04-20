@@ -7,6 +7,7 @@ import { BreakingBad } from "../projects/BreakingBad";
 import { AwesomeWomen } from "../projects/Awesome";
 import { RickAndMorty } from "../projects/RickAndMorty";
 import { Adatravellers } from "../projects/Adatravellers";
+import { WhackAmole } from "../projects/whack";
 
 function Projects() {
     return (
@@ -15,6 +16,7 @@ function Projects() {
         <article className="section">
             <TodoList/>
             <GoogleClon/>
+            <WhackAmole/>
             <BreakingBad/>
             <AwesomeWomen/>
             <RickAndMorty/>

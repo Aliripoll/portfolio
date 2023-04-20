@@ -11,7 +11,7 @@ function Adatravellers() {
             alt="to-do list App"/>
             <div className="info_card">
                 <h3>Adatravellers</h3>
-                <p>HTML - CSS</p>
+                <p>HTML - SCSS</p>
                 <p>Team project</p>
             </div>
          </article>
