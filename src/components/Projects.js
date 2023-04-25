@@ -9,12 +9,14 @@ import { RickAndMorty } from "../projects/RickAndMorty";
 import { Adatravellers } from "../projects/Adatravellers";
 import { WhackAmole } from "../projects/whack";
 import { AnonymousProxy } from "../projects/Anonymous";
+import { VangApp } from "../projects/VangApp";
 
 function Projects() {
     return (
         <>
         <p className="projects_title">Mis proyectos</p>
         <article className="section">
+            <VangApp/>
             <TodoList/>
             <GoogleClon/>
             <WhackAmole/>
