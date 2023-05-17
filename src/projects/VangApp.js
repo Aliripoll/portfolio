@@ -5,7 +5,7 @@ import vangapp from "../images/vangApp.png";
 
 function VangApp() {
     return (
-        <a href="https://github.com/Aliripoll/van-gApp" target="_blank" className="card_link">
+        <a href="https://aliripoll.github.io/van-gApp/" target="_blank" className="card_link">
          <article className="article_card">
             <img className="img_card" 
             src={vangapp}
