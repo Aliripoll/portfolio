@@ -11,7 +11,9 @@ function VangApp() {
             src={vangapp}
             alt="to-do list App"/>
             <div className="info_card">
-                <h3>En construcción...🚧</h3>
+                <h3>Vang-App</h3>
+                <p>HTML - CSS - REACT</p>
+                <p>Personal project</p>
             
             </div>
          </article>
