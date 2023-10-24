@@ -7,6 +7,12 @@ import {Link, Route, Routes} from 'react-router-dom';
 //import './App.css';
 
 function App() {
+  const [inputTech, setInputTech] = useState("all");
+
+
+
+  setFilteredDataPainting(filteredDataPaintings);
+
   return (
     <>
     <Header/>
