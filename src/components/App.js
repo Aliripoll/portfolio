@@ -4,15 +4,8 @@ import { AboutMe } from "./AboutMe";
 import { Projects } from "./Projects";
 import { Contact } from './Contact';
 import {Link, Route, Routes} from 'react-router-dom';
-//import './App.css';
 
 function App() {
-  const [inputTech, setInputTech] = useState("all");
-
-
-
-  setFilteredDataPainting(filteredDataPaintings);
-
   return (
     <>
     <Header/>
@@ -22,7 +15,6 @@ function App() {
       <Route path="/Projects" element={<Projects/>}></Route>
       <Route path="/Contact" element={<Contact />}></Route> 
     </Routes>
-
     </>
   );
 }
