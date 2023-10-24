@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.98e63333.css",
+    "main.js": "/portfolio/static/js/main.61857dd4.js",
+    "static/media/anonymous.png": "/portfolio/static/media/anonymous.9ce9695c510087dce2a3.png",
+    "static/media/adatravellers.png": "/portfolio/static/media/adatravellers.1e08ee38910d07fbc0e9.png",
+    "static/media/vangApp.png": "/portfolio/static/media/vangApp.66cc304ecaae2dc5498e.png",
+    "static/media/breaking-bad.png": "/portfolio/static/media/breaking-bad.fe4be4d043956914a2e8.png",
+    "static/media/alicia3.jpg": "/portfolio/static/media/alicia3.3bba7e1a08b358c4159f.jpg",
+    "static/media/awesome-women.png": "/portfolio/static/media/awesome-women.55b6b8bf6e83280ab2c9.png",
+    "static/media/rick-morty.png": "/portfolio/static/media/rick-morty.a6b9847a9a574d0b4f1c.png",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.d670d81a95063965d9ed.pdf",
+    "static/media/todo-list.png": "/portfolio/static/media/todo-list.88f3f174ca557bac440c.png",
+    "static/media/teléfono.jpeg": "/portfolio/static/media/teléfono.28a6e173d3873e30ce5c.jpeg",
+    "static/media/google-clon.png": "/portfolio/static/media/google-clon.280b58be61eb0ad06bed.png",
+    "static/media/whack.png": "/portfolio/static/media/whack.232d94ab302d7a930087.png",
+    "index.html": "/portfolio/index.html",
+    "main.98e63333.css.map": "/portfolio/static/css/main.98e63333.css.map",
+    "main.61857dd4.js.map": "/portfolio/static/js/main.61857dd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e63333.css",
+    "static/js/main.61857dd4.js"
+  ]
+}
